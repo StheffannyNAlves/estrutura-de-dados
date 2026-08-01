@@ -10,7 +10,7 @@ using namespace std;
 vector<int> dijkstra(vector<list<pair<int, int> > > graph, int src, int dest){
     const int infinity = numeric_limits<int>::max();
     int V = graph.size();
-    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > pq;
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > pq; 
     vector<int> antecessors(V, -1);
     vector<int> weight(V, infinity);
 

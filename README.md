@@ -6,31 +6,32 @@ Linguagens: C e C++.
 
 ## Estrutura
 
-```
-estrutura-de-dados/
-├── grafos/
-│   ├── bfs/
-│   ├── dfs/
-│   ├── scc/
-│   ├── topologica/
-│   ├── dijkstra/
-│   ├── dsu/
-│   └── kruskal/
-├── arvores/
-│   ├── avl/
-│   └── btree/
-├── tabelas-hash/
-├── ordenacao/
-│   ├── quicksort/
-│   ├── mergesort/
-│   └── heapsort/
-└── estruturas-basicas/
+```c
+
+    estrutura-de-dados/
+    ├── grafos/
+    │ ├── bfs.cpp
+    │ ├── dfs.cpp
+    │ ├── khan.cpp
+    │ ├── prim.cpp
+    │ ├── dijkstra.cpp
+    │ └── kruskal.cpp
+    ├── arvores/
+    │   ├── abb.c
+    │   ├── avl.c
+    │   └── btree.c
+    ├── tabelashash/
+    │ ├── hash_encadeamento.c
+    │ └── hash_linear.c
+    ├── ordenacao/
+    │ ├── quicksort.c
+    │ └── mergesort.c
+    └── estruturas-basicas/
     ├── listas/
     ├── pilhas/
     └── filas/
+    
 ```
-
-Cada pasta contém a implementação e um README com análise do algoritmo — quando usar, complexidade e limitações.
 
 ## Como compilar
 

@@ -12,7 +12,7 @@ vector<vector<int>> create(int V, int E){
    for (int i = 0; i < E; i++){
      cin >> v >> u;
      graph[v].push_back(u);
-     graph[u].push_back(v);
+     graph[u].push_back(v); 
    }
 
    return graph;
